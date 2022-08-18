@@ -91,8 +91,12 @@ main{
 
 #active > a{
     color:#4ceea3;
+    border-bottom:#4ceea3 solid 1px;
 }
 
+#linelight > a{
+    border-bottom:#4ceea3 solid 1px;
+}
 .btnMenu{
     font-size: 40px;
     color: #FF9963;
@@ -153,7 +157,6 @@ main{
 
 .presentacion{
     padding: 10vh;
-    
 }
 
 .presentacionCont{
@@ -543,7 +546,7 @@ footer p{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}   
 
 .contActividadesGrid{
     display: grid;
@@ -565,9 +568,13 @@ footer p{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: end;
+    transition: all 1s;
     
 }
 
+.actItem:hover{
+    transform: scale(1.02);
+}
 .actItem:hover h2{
     transform: scale(1.2);
     transform: translateX(1rem);
@@ -711,7 +718,6 @@ footer p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .serviciosGrid{
@@ -910,13 +916,28 @@ footer p{
     font-size: 4rem;
 }
 
+.presentacion,
+.contenedorValores,
+.descripcion,
+.contCronograma,
+.actividadesTexto,
+.columna,
+.contContacto,
+.introServicios,
+.contenedorLista{
+    animation-name: entrada;
+    animation-duration: 1.5s;
+}
 
-
-
-
-
-
-
+@keyframes entrada{
+    from{
+        opacity: 0;
+        transform: translate(0,200px);
+    }
+    to{
+       opacity: 1;
+    }
+}
 
 @media screen and (max-width:1240px){
     .contActividadesGrid{
@@ -971,13 +992,17 @@ footer p{
     .submenu{
         width: 100%;
         display: block;
-        background-color: #393e4600;
+    }
+
+    #linelight > a{
+        border: 0;
     }
 
     .menu li:hover .submenu{
         list-style-type: none;
         border-radius: 0px 0px 10px 10px;
         position: relative;
+        background-color: #f1ede200;
     }
 
     #checkbox:checked ~ .menu li{
