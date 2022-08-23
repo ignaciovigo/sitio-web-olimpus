@@ -4,96 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olimpus-Contacto</title>
+    <title>Olimpus Contacto</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../libs/bootstrap-5.2.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../css/estilos.css">
 </head>
 <body>
-    <header class="hder">
-        <nav class="navegacion">
-            <a href="../index.html"><img  class="logo" src="../images/logoverde.png" alt="logo"></a>
-            <input type="checkbox" id="checkbox">
-            <label for="checkbox" class="btnMenu">
-                <i class="bi bi-list"></i>
-            </label>
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./olimpus.html">Olimpus</a></li>
-                <li><a href="./actividades.html">Actividades</a>
-                    <ul class="submenu">
-                        <li><a href="./actividades/cycling.html">Cycling</a></li>
-                        <li><a href="./actividades/musculacion.html">Musculación</a></li>
-                        <li><a href="./actividades/combat.html">Combat</a></li>
-                        <li><a href="./actividades/zumba.html">Zumba</a></li>
-                        <li><a href="./actividades/personalizado.html">Personalizado</a></li> 
-                    </ul>
-                </li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li id="active"><a href="./contacto.html">Contacto</a></li>     
-            </ul>
-        </nav> 
-        <div class="TituloConBoton">
-            <h1 class="introTitulo animate__animated animate__zoomIn">
-                <span class="introTituloAntGrande">Contacto</span>
-                <span class="espacio introTituloCen">CONTACTO</span>
-            </h1>
-        </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark p-0 fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../images/logoverde.png" width="180px" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="bi bi-list fs-1 px-2"></i></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end ff-robo text-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link p-3 fs-5 text-naranja" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3 text-naranja fs-5" href="./olimpus.html">Olimpus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3 text-naranja fs-5" href="./actividades.html">Actividades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3 fs-5 text-naranja" href="./servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3 fs-5 activ text-naranja" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <section class="contContacto">
-            <div class="contacto">
-                <div class="contacto-form">
-                    <form>
-                        <label for="nombre">Nombre:</label><br>
-                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="contacto-form-texto"><br><br>
-                        <label for="correo">E-mail:</label><br>
-                        <input type="email" name="correo" id="correo" placeholder="E-mail" class="contacto-form-texto"><br><br>
-                        <label for="telefono">Telefono:</label><br>
-                        <input type="tel" name="telefono" id="telefono" placeholder="Telefono" class="contacto-form-texto"><br><br>
-                        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Mensaje" class="contacto-form-texto-area" ></textarea>
-                        <div>
-                            <input type="submit" name="enviar" id="enviar" value="ENVIAR" class="contacto-form-btn">
+      <section class="hero d-flex flex-column justify-content-center align-items-center text-warning text-center">
+          <h2 class="animate__animated animate__zoomIn display-1 mb-0 lh-1 fw-bold text-naranja ff-leag opacity-50">Conctacto</h2>
+          <h1 class="animate__animated animate__zoomIn display-3 mb-0 lh-1 fw-bold text-crema ff-robo">CONTACTO</h1>
+      </section>
+      <section class="container-fluid text-center p-5">
+          <div class="row shadow-lg p-3 mb-5 bg-body rounded-4 border">
+              <div class="col-sm-12 col-md-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.26483372452!2d-58.503338504771065!3d-34.615803736084544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1661206563375!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                  <form class="text-start ff-raj fs-5">
+                      <div class="mb-3">
+                        <label for="nombre" class="form-label ff-robo">Nombre:</label>
+                        <input type="text" class="form-control" placeholder="Nombre" id="nombre">
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label ff-robo">E-mail: </label>
+                        <input type="email" class="form-control" placeholder="E-mail" id="email">
+                      </div>
+                      <div class="mb-3">
+                          <label class="form-label ff-robo" for="telefono">Telefono:</label>
+                          <input type="tel" class="form-control" placeholder="Telefono" id="telefono">
+                      </div>
+                      <div class="form-floating mb-3 text-gris">
+                          <textarea class="form-control" placeholder="Deja un comentario" id="floatingTextarea2" style="height: 100px"></textarea>
+                          <label for="floatingTextarea2">Mensaje</label>
                         </div>
+                      <button type="submit" class="btn btn-naranja text-crema fw-bold px-4 py-3 fs-6 ff-raj rounded-4 w-100">ENVIAR</button>
                     </form>
-                </div>
-                <div class="mapa">
-                    <div class="mapouter bloque"><div class="gmap_canvas"><iframe width="100%" height="auto" id="gmap_canvas" src="https://maps.google.com/maps?q=buenos%20aires&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;height:100%;width:100%;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;height:100%;width:100%;}</style></div></div>
-                </div>
-            </div>
-        </section>
-        <section class="finalContact fondoFrase">
-            <div class="finalContactTexto">
-                <h3 class="subtitulo">
-                    <span class="subtituloAnt">Seguinos</span>
-                    <span class="subtituloCent">EN NUESTRAS REDES</span>
-                </h3>
-                <div class="finalContactoIconos">
-                    <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
-                </div>
-            </div>
-        </section>
+              </div>
+          </div>
+      </section>
     </main>
-    <footer>
-        <div class="footerImg">
-            <img class="logo" src="../images/logoverde.png" alt="logo">
+    <section class="fondoFraseContacto container-fluid d-flex flex-column justify-content-center align-items-center">
+        <div class="d-flex flex-column text-center">
+            <h3 class="d-flex flex-column text-center">
+            <span class="lh-1 display-6 mb-0 fw-bold text-crema ff-leag">Seguinos</span>
+            <span class="lh-1 display-5 mb-0 fw-bold text-crema ff-robo">EN NUESTRAS REDES</span>
+          </h3>
+          <div class=" d-flex flex-row justify-content-around">
+            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook display-3 text-tur "></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram display-3 text-tur "></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube display-3 text-tur "></i></a>
+          </div>
         </div>
-        <div class="footerInfo">
-            <h3><i class="bi bi-geo-alt-fill"> </i>VISITANOS</h3>
-            <p>Rodriguez Alejandría 3058</p>
-            <h3><i class="bi bi-telephone-fill"> </i>LLAMANOS</h3>
-            <p>0123-12341234</p>
+    </section>
+    <footer class="container-fluid bg-dark py-4">
+      <div class="row">
+        <div class="col-12 text-center">
+          <img src="../images/logoverde.png" width="200px"  alt="logo">
         </div>
-        <div class="footerIconos">
-            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.WhatsApp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
+      </div>
+      <div class="row justify-content-around align-items-center py-3 ">
+        <div class="col-sm-12 col-md-4 col-lg-2 p-0 text-center text-md-start">
+          <h5 class="h4 text-naranja ff-raj fw-bold"><i class="bi bi-geo-alt-fill"> </i>VISITANOS</h5>
+          <p class="h5 text-crema ff-raj fw-bold">Rodriguez Alejandría 3058</p>
+          <h5 class="h4 text-naranja ff-raj fw-bold"><i class="bi bi-telephone-fill"> </i>LLAMANOS</h5>
+          <p class="h5 text-crema ff-raj fw-bold">0123-12341234</p>
         </div>
-        <div class="small">
-            <p><small>Copyright todos los derechos reservados <strong>Olimpus</strong><sup>®</sup></small></p>
+        <div class="col-sm-12 col-md-4 col-lg-2 p-0 d-flex justify-content-center">
+          <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook display-3 text-naranja mx-2"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram display-3 text-naranja mx-2"></i></a>
+          <a href="https://www.WhatsApp.com" target="_blank"><i class="bi bi-whatsapp display-3 text-naranja mx-2"></i></a>
         </div>
+      </div>
+        <div class="col-12 text-center">
+          <p class="h6 text-tur ff-robo"><small>Copyright todos los derechos reservados <strong>Olimpus</strong><sup>®</sup></small></p>
+        </div>
+      </div>
     </footer>
+    <script src="../libs/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
+</html> 

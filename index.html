@@ -11,124 +11,142 @@
     <link rel="stylesheet" type="text/css" href="./css/estilos.css">
 </head>
 <body>
-    <header class="hder">
-        <nav class="navegacion">
-            <a href="index.html"><img  class="logo" src="./images/logoverde.png" alt="logo"></a>
-            <input type="checkbox" id="checkbox">
-            <label for="checkbox" class="btnMenu">
-                <i class="bi bi-list"></i>
-            </label>
-            <ul class="menu">
-                <li id="active"><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/olimpus.html">Olimpus</a></li>
-                <li><a href="./pages/actividades.html">Actividades</a>
-                    <ul class="submenu">
-                        <li><a href="./pages/actividades/cycling.html">Cycling</a></li>
-                        <li><a href="./pages/actividades/musculacion.html">Musculación</a></li>
-                        <li><a href="./pages/actividades/combat.html">Combat</a></li>
-                        <li><a href="./pages/actividades/zumba.html">Zumba</a></li>
-                        <li><a href="./pages/actividades/personalizado.html">Personalizado</a></li> 
-                    </ul>
-                </li>
-                <li><a href="./pages/servicios.html">Servicios</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>     
-            </ul>
-        </nav> 
-        <div class="TituloConBoton">
-            <h1 class="introTitulo">
-                <span class="introTituloAnt animate__animated animate__bounceInDown">Bienveidos a </span>
-                <span class="introTituloCen animate__animated animate__fadeInLeft">TU GIMNASIO, TU LUGAR</span>
-            </h1>
-            <a class="btn animate__animated animate__fadeInLeft" target="_blank" href="https://www.whatsapp.com">agendá tu clase</a>
-        </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark p-0 fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img src="./images/logoverde.png" width="180px" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="bi bi-list fs-1 px-2"></i></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end ff-robo text-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link p-3 fs-5 activ text-naranja" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3 text-naranja fs-5" href="./pages/olimpus.html">Olimpus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3 text-naranja fs-5" href="./pages/actividades.html">Actividades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3 fs-5 text-naranja" href="./pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3 fs-5 text-naranja" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <section class="presentacion">
-            <div class="presentacionCont">
-                <div class="presentacionIzq">
-                    <h2 class="subtitulo">
-                        <span class="subtituloAnt">Tu lugar</span>
-                        <span class="subtituloCent">TU GIMNASIO</span>
-                    </h2>
-                    <p class="parrafo">Orientado a un ambiente divertido, donde cada socio es un amigo. En <b>OLIMPUS</b> encontrarás todas las comodidades junto con beneficios para disfrutar de la Actividad Física con un grupo capacitado y una estructura con maquinas de última generación para ayudarte a alcanzar cada uno de tus objetivos.</p>
-                    <a class="btn" href="./pages/olimpus.html">LEER MÁS</a>
-                </div>
-                <div class="presentacionDer">
-                    <img src="./images/presentacionDer.jpg" alt="fotofit">
-                </div>
-            </div>
-        </section>
-        <section class="fondoContenedorLista">
-            <div class="contenedorLista">
-                <h3 class="subtitulo">
-                    <span class="subtituloAnt">¿Por qué elegir</span>
-                    <span class="subtituloCent">OLIMPUS?</span>
-                </h3>
-                <ul class="lista">
-                    <li class="listaItem"><span>Te sentirás como estuviera en tu casa.</span></li>
-                    <li class="listaItem"><span>Encontrarás várias opciones para motivarte.</span></li>
-                    <li class="listaItem"><span>Encontrarás várias opciones para motivarte.</span></li>
-                    <li class="listaItem"><span>Tendrás las soluciones más efectivas para lograr tus resultados.</span></li>
-                    <li class="listaItem"><span>Te sentirás único, con programas a medida.</span></li>
-                    <li class="listaItem"><span>Te sentirás motivado para hacer actividad física.</span></li>
-                    <li class="listaItem"><span>Encontrarás un espacio pensado para cumplir tus metas.</span></li>
-                    <li class="listaItem"><span>Más allá de hacer actividad física, te cambiará la vida.</span></li>
+      <section class="hero d-flex flex-column justify-content-center align-items-center text-warning text-center">
+          <h2 class="introTituloAnt animate__animated animate__bounceInDown display-4 mb-0 lh-1 fw-bold text-naranja ff-leag">Bienvenidos a</h2>
+          <h1 class="introTituloCen animate__animated animate__fadeInLeft display-3 mb-0 lh-1 mb-5 fw-bold text-crema ff-robo">TU GIMNASIO, TU LUGAR</h1>
+          <a class="animate__animated animate__fadeInLeft btn btn-naranja text-crema fw-bold px-4 py-3 fs-6 ff-raj rounded-4"  target="_blank" href="https://www.whatsapp.com" role="button">AGENDÁ TU CLASE</a>
+      </section>
+      <section class="container my-5">
+          <div class="row">
+              <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                  <h3 class="d-flex flex-column text-center mb-5">
+                      <span class="display-6 mb-0 lh-1 fw-bold text-naranja ff-leag">Tu lugar</span>
+                      <span class="display-5 mb-0 lh-1 fw-bold ff-robo">TU GIMNASIO</span>
+                  </h3>
+                  <p class="fs-5">Orientado a un ambiente divertido, donde cada socio es un amigo. En <b>OLIMPUS</b> encontrarás todas las comodidades junto con beneficios para disfrutar de la Actividad Física con un grupo capacitado y una estructura con maquinas de última generación para ayudarte a alcanzar cada uno de tus objetivos.</p>
+                  <a class="btn btn-naranja text-crema fw-bold px-5 py-3 b fs-6 mt-5 ff-raj rounded-4"  target="_blank" href="./pages/olimpus.html" role="button">LEER MÁS</a>
+              </div>
+              <div class="col-md-6 col-lg-5 d-flex align-items-center mt-5">
+                  <img class="img-fluid rounded" src="./images/presentacionDer.jpg" alt="fotofit">
+              </div>
+          </div>
+      </section>
+      <section class="container-fluid fondoContenedorLista py-5 d-flex flex-column justify-content-center align-items-center">
+          <div class="row">
+              <h3 class="d-flex flex-column text-center mb-5">
+                  <span class="display-6 mb-0 lh-1 fw-bold text-naranja ff-leag">¿Por qué elegir</span>
+                  <span class="display-5 mb-0 lh-1 fw-bold text-crema ff-robo">OLIMPUS?</span>
+              </h3>
+          </div>
+          <div class="row col-sm-12 col-lg-10"> 
+              <ul id="lista" class="list-group p-0 ff-robo">
+                  <li class="list-group-item ps-5 text-crema bg-transparent border-naranja"><span class="h4 fs-4 fst-italic lh-lg">Te sentirás como estuviera en tu casa.</span></li>
+                  <li class="list-group-item ps-5 text-crema bg-transparent border-naranja"><span class="h4 fs-4 fst-italic lh-lg">Estarás rodeado de buena energía.</span></li>
+                  <li class="list-group-item ps-5 text-crema bg-transparent border-naranja"><span class="h4 fs-4 fst-italic lh-lg">Encontrarás várias opciones para motivarte.</span></li>
+                  <li class="list-group-item ps-5 text-crema bg-transparent border-naranja"><span class="h4 fs-4 fst-italic lh-lg">Tendrás las soluciones más efectivas para lograr tus resultados.</span></li>
+                  <li class="list-group-item ps-5 text-crema bg-transparent border-naranja"><span class="h4 fs-4 fst-italic lh-lg">Te sentirás único, con programas a medida.</span></li>
+                  <li class="list-group-item ps-5 text-crema bg-transparent border-naranja"><span class="h4 fs-4 fst-italic lh-lg">Te sentirás motivado para hacer actividad física.</span></li>
+                  <li class="list-group-item ps-5 text-crema bg-transparent border-naranja"><span class="h4 fs-4 fst-italic lh-lg">Encontrarás un espacio pensado para cumplir tus metas.</span></li>
+                  <li class="list-group-item ps-5 text-crema bg-transparent border-naranja"><span class="h4 fs-4 fst-italic lh-lg">Más allá de hacer actividad física, te cambiará la vida.</span></li>
                 </ul>
-            </div>
-        </section>
-        <section class="nosotros">
-            <div class="contenedorValores">
-                <div>
-                    <h3 class="subtitulo">
-                        <span class="subtituloAnt">Nuestros</span>
-                        <span class="subtituloCent">VALORES</span>
-                    </h3>
+          </div>
+      </section>
+      <section id="inicio" class="container-fluid py-5">
+          <div class="row">
+              <h3 class="d-flex flex-column text-center mb-5">
+                  <span class="display-6 mb-0 lh-1 fw-bold text-naranja ff-leag">Nuestros</span>
+                  <span class="display-5 mb-0 lh-1 fw-bold ff-robo">VALORES</span>
+              </h3>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3 my-2">
+              <div class="card rounded-5">
+                <img src="./images/innovacion.jpg" class="card-img rounded-5" alt="...">
+                <div class="card-img-overlay px-3 d-flex justify-content-center align-items-center">
+                  <h5 class="card-title h2 text-naranja fw-bold ff-robo">Innovación</h5>  
                 </div>
-                <div class="valores">
-                    <div class="valor innovacion">
-                        <p><b>Innovación</b></p>
-                    </div>
-                    <div class="valor humanismo">
-                        <p><b>Humanismo</b></p>
-                    </div>
-                    <div class="valor profesionalismo">
-                        <p><b>Profesinalismo</b></p>
-                    </div>
+              </div>
+            </div>
+            <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3 my-2">
+              <div class="card rounded-5">
+                <img src="./images/humanismo.jpg" class="card-img rounded-5" alt="...">
+                <div class="card-img-overlay px-3 d-flex justify-content-center align-items-center">
+                  <h5 class="card-title h2 text-naranja fw-bold ff-robo">Humanismo</h5>  
                 </div>
+              </div>
             </div>
-        </section>
-        <section class="fondoFrase">
-            <div>
-                <h3 class="subtitulo">
-                    <span class="subtituloAnt">Comenzá</span>
-                    <span class="subtituloCent">A CAMBIAR TU VIDA</span>
-                </h3>
+            <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3 my-2">
+              <div class="card rounded-5">
+                <img src="./images/profesionalismo.jpg" class="card-img rounded-5" alt="...">
+                <div class="card-img-overlay px-3 d-flex justify-content-center align-items-center">
+                  <h5 class="card-title h2 text-naranja fw-bold ff-robo">Profesionalismo</h5>  
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+      </section>
     </main>
-    <div class="wp">
-        <a href="https://www.whatsapp.com"><img src="./assest/whatsapp.png" alt="fotowap"></a>
-    </div>
-    <footer>
-        <div class="footerImg">
-            <img class="logo" src="./images/logoverde.png" alt="logo">
+    <section class="fondoFrase container-fluid d-flex flex-column justify-content-center align-items-center">
+        <h3 class="d-flex flex-column text-center">
+            <span class="lh-1 display-6 mb-0 fw-bold text-crema ff-leag">Comenzá</span>
+            <span class="lh-1 display-5 mb-0 fw-bold text-crema ff-robo">A CAMBIAR TU VIDA</span>
+        </h3>
+     </div>
+    </section>
+    <footer class="container-fluid bg-dark py-4">
+      <div class="row">
+        <div class="col-12 text-center">
+          <img src="./images/logoverde.png" width="200px"  alt="logo">
         </div>
-        <div class="footerInfo">
-            <h3><i class="bi bi-geo-alt-fill"> </i>VISITANOS</h3>
-            <p>Rodriguez Alejandría 3058</p>
-            <h3><i class="bi bi-telephone-fill"> </i>LLAMANOS</h3>
-            <p>0123-12341234</p>
+      </div>
+      <div class="row justify-content-around align-items-center py-3 ">
+        <div class="col-sm-12 col-md-4 col-lg-2 p-0 text-center text-md-start">
+          <h5 class="h4 text-naranja ff-raj fw-bold"><i class="bi bi-geo-alt-fill"> </i>VISITANOS</h5>
+          <p class="h5 text-crema ff-raj fw-bold">Rodriguez Alejandría 3058</p>
+          <h5 class="h4 text-naranja ff-raj fw-bold"><i class="bi bi-telephone-fill"> </i>LLAMANOS</h5>
+          <p class="h5 text-crema ff-raj fw-bold">0123-12341234</p>
         </div>
-        <div class="footerIconos">
-            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.WhatsApp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <div class="col-sm-12 col-md-4 col-lg-2 p-0 d-flex justify-content-center">
+          <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook display-3 text-naranja mx-2"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram display-3 text-naranja mx-2"></i></a>
+          <a href="https://www.WhatsApp.com" target="_blank"><i class="bi bi-whatsapp display-3 text-naranja mx-2"></i></a>
         </div>
-        <div class="small">
-            <p><small>Copyright todos los derechos reservados <strong>Olimpus</strong><sup>®</sup></small></p>
+      </div>
+        <div class="col-12 text-center">
+          <p class="h6 text-tur ff-robo"><small>Copyright todos los derechos reservados <strong>Olimpus</strong><sup>®</sup></small></p>
         </div>
+      </div>
     </footer>
-    <script src="libs/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./libs/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <script src="./libs/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html> 
