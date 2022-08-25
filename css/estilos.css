@@ -232,6 +232,24 @@ body{
     }
 }
 
+@media screen and (max-width: 992px){
+    .hero,
+    .fondoContenedorLista,
+    .fondoFrase,
+    .fondoContenedorListaOlimpus,
+    .fondoFraseOlimp,
+    .fondoFraseAct,
+    .fondoFraseServ,
+    .fondoFraseContacto,
+    .heroCycling,
+    .heroMuscu,
+    .heroCombat,
+    .heroZumba,
+    .heroPersonal{
+        background-attachment: unset;
+                 }
+}
+
 @media (max-width: 768px) {
     .hero{
         background-image: linear-gradient(rgba(34, 37, 42,0.5),rgba(34, 37, 42,0.5)),url("../images/intro600px.jpg");
