@@ -1,267 +1,229 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Script&family=Rajdhani&family=Roboto+Slab&display=swap');
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=League+Script&family=Rajdhani&family=Roboto+Slab&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 /*** crema: f1ede2; negro: 22252a; naranaja: ff9963;  turq: 4ecca3; gris;393e46 ***/
-
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
-body{
-    background-color: #f1ede2;
-}
+body {
+  background-color: #f1ede2; }
 
 /* background:images */
+.hero {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/intro.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 25% 25%;
+  height: 60vh; }
 
-.hero{
-    background-image: linear-gradient(rgba(34, 37, 42,0.5),rgba(34, 37, 42,0.5)),url("../images/intro.jpg");
-    background-attachment:fixed;
-    background-size: cover;
-    background-position: 25% 25%;
-    height: 60vh;
-}
+.fondoContenedorLista {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.6), rgba(34, 37, 42, 0.6)), url("../images/fondoContLista.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
 
-.fondoContenedorLista{
-    background-image:linear-gradient(rgba(34, 37, 42,0.6),rgba(34, 37, 42,0.6)),url("../images/fondoContLista.jpg");
-    background-size: cover;
-    background-attachment:fixed;
+.fondoFrase {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondoFrase.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh; }
 
-}
-.fondoFrase{
-    background-image: linear-gradient(rgba(34, 37, 42,0.5),rgba(34, 37, 42,0.5)),url("../images/fondoFrase.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 40vh;
-}
+.fondoContenedorListaOlimpus {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.8)), url("../images/contenedor_2_olimpus.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
 
-.fondoContenedorListaOlimpus{
-    background-image:linear-gradient(rgba(34, 37, 42,0.5),rgba(34, 37, 42,0.8)),url("../images/contenedor_2_olimpus.jpg");
-    background-size: cover;
-    background-attachment:fixed;
-}
-.fondoFraseOlimp{
-    background-image: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.5)),url("../images/fondo_frase.jpg");
-    background-size: cover;
-    background-attachment: fixed;       /* sacar el fixeed */
-    background-position: 50% 100%;
-    height: 40vh;
-}
-.fondoFraseAct{
-    background-image: linear-gradient(rgba(34, 37, 42,0.5),rgba(34, 37, 42,0.5)),url("../images/foto_final_actividades.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 40vh;
-}
-.fondoFraseServ{
-    background-image: linear-gradient(rgba(34, 37, 42,0.5),rgba(34, 37, 42,0.5)),url("../images/finalServi.jpg");
-    background-position: 0% 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 40vh;
-}
-.fondoFraseContacto{
-    background-image: linear-gradient(rgba(34, 37, 42,0.5),rgba(34, 37, 42,0.5)),url("../images/finalContacto.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 40vh;
-}
+.fondoFraseOlimp {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/fondo_frase.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  /* sacar el fixeed */
+  background-position: 50% 100%;
+  height: 40vh; }
 
-.heroCycling{
-    background-image: linear-gradient(rgba(34, 37, 42,0.8),rgba(34, 37, 42,0.5)),url("../images/actividades/fondoCycling.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
-}
+.fondoFraseAct {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/foto_final_actividades.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40vh; }
 
-.heroMuscu{
-    background-image: linear-gradient(rgba(34, 37, 42,0.8),rgba(34, 37, 42,0.5)),url("../images/actividades/fondoMusculacion.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
-}
+.fondoFraseServ {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/finalServi.jpg");
+  background-position: 0% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40vh; }
 
-.heroCombat{
-    background-image: linear-gradient(rgba(34, 37, 42,0.8),rgba(34, 37, 42,0.5)),url("../images/actividades/fondoCombat.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
-}
+.fondoFraseContacto {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/finalContacto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40vh; }
 
-.heroZumba{
-    background-image: linear-gradient(rgba(34, 37, 42,0.8),rgba(34, 37, 42,0.5)),url("../images/actividades/fondoZumba.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
-}
+.heroCycling {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.8), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoCycling.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60vh; }
 
-.heroPersonal{
-    background-image: linear-gradient(rgba(34, 37, 42,0.8),rgba(34, 37, 42,0.5)),url("../images/actividades/fondoPersonalTrainer.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
-}
+.heroMuscu {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.8), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoMusculacion.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60vh; }
+
+.heroCombat {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.8), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoCombat.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60vh; }
+
+.heroZumba {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.8), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoZumba.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60vh; }
+
+.heroPersonal {
+  background-image: linear-gradient(rgba(34, 37, 42, 0.8), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoPersonalTrainer.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60vh; }
 
 /* lista de index y olimpus */
-#lista li span::before{
-    content: "✔ ";
-    color:#FF9963;
-}
+#lista li span::before {
+  content: "✔ ";
+  color: #FF9963; }
 
 /* fonts, backround-colors, colors,border-colors */
-.ff-robo{
-    font-family:'Roboto Slab',sans-serif;
-}
+.ff-robo {
+  font-family: 'Roboto Slab',sans-serif; }
 
-.ff-leag{
-    font-family:'League Script',serif;
-}
+.ff-leag {
+  font-family: 'League Script',serif; }
 
-.ff-raj, p{
-    font-family:"Rajdhani",serif;
-}
+.ff-raj, p {
+  font-family: "Rajdhani",serif; }
 
-.text-tur{
-    color: #4ecca3;
-}
-.text-gris{
-    color:#6c757d;
-}
-.text-crema{
-    color: #f1ede2;
-}
+.text-tur {
+  color: #4ecca3; }
 
-.text-naranja{
-    color: #ff9963;
-}
+.text-gris {
+  color: #6c757d; }
 
-.bg-naranja, .btn-naranja{
-    background-color: #ff9963;
-}
+.text-crema {
+  color: #f1ede2; }
 
-.border-naranja{
-    border-color: #ff9963;
-}
-.bg-crema{
-    background-color: #f1ede2;
-}
+.text-naranja {
+  color: #ff9963; }
 
-.bg-transparente{
-    background-color: rgba(33, 37, 41,.6);
-}
+.bg-naranja, .btn-naranja {
+  background-color: #ff9963; }
+
+.border-naranja {
+  border-color: #ff9963; }
+
+.bg-crema {
+  background-color: #f1ede2; }
+
+.bg-transparente {
+  background-color: rgba(33, 37, 41, 0.6); }
+
 /* navbar */
-.activ{
-    color: #4ecca3 ;
-    border-bottom: 1px solid #4ecca3;
-}
+.activ {
+  color: #4ecca3;
+  border-bottom: 1px solid #4ecca3; }
 
-.nav-link:hover,.activ:hover, .navbar-toggler:hover{
-    background-color: #4ecca3;
-    color: #212529;
-    border-radius: 10px;
-    transition:.5s;
-}
-.navbar-toggler{
-    color: #4ecca3;
-}
+.nav-link:hover, .activ:hover, .navbar-toggler:hover {
+  background-color: #4ecca3;
+  color: #212529;
+  border-radius: 10px;
+  transition: .5s; }
 
-.nav-link:focus{
-    color: #212529;
-    background-color: #4ecca3;
-    border-radius: 10px;
-}
+.navbar-toggler {
+  color: #4ecca3; }
 
-.nav-link{
-    transition: 0s;
-}
- /* botones */
-.btn{
-    border: none;
-}
-.btn:hover,.btn:focus{
-    background-color: #4ecca3;
-    color: #212529; 
-    transition: all .8s;
-}
+.nav-link:focus {
+  color: #212529;
+  background-color: #4ecca3;
+  border-radius: 10px; }
 
+.nav-link {
+  transition: 0s; }
+
+/* botones */
+.btn {
+  border: none; }
+
+.btn:hover, .btn:focus {
+  background-color: #4ecca3;
+  color: #212529;
+  transition: all .8s; }
 
 /* "animaciones"*/
+#actividades .card:hover, #servicios .card:hover, #inicio .card:hover, .carousel-item .card:hover {
+  transform: scale(1.02);
+  transition: all .8s; }
 
-#actividades .card:hover, #servicios .card:hover, #inicio .card:hover, .carousel-item .card:hover{
-    transform: scale(1.02);
-    transition: all .8s;
-}
+#actividades .card:hover a, .carousel-item .card:hover a {
+  transform: scale(1.2);
+  transform: translateX(1rem);
+  transition: all 1s; }
 
-#actividades .card:hover a, .carousel-item .card:hover a{
-    transform: scale(1.2);
-    transform: translateX(1rem);
-    transition: all 1s;
-}
-#actividades .card:hover h5, .carousel-item .card:hover h5{
-    transform: scale(1.2);
-    transform: translateX(1rem);
-    color: #4ecca3;
-    transition: all 1s;
-}
+#actividades .card:hover h5, .carousel-item .card:hover h5 {
+  transform: scale(1.2);
+  transform: translateX(1rem);
+  color: #4ecca3;
+  transition: all 1s; }
 
-#servicios .card:hover div{
-  background:rgba(33, 37, 41,.8);
-  transition: all 1s;
-}
+#servicios .card:hover div {
+  background: rgba(33, 37, 41, 0.8);
+  transition: all 1s; }
 
-.row{
-    animation-name: entrada;
-    animation-duration: 1.5s;
-}
-@keyframes entrada{
-    from{
-        opacity: 0;
-        transform: translate(0,200px);
-    }
-    to{
-       opacity: 1;
-    }
-}
+.row {
+  animation-name: entrada;
+  animation-duration: 1.5s; }
+
+@keyframes entrada {
+  from {
+    opacity: 0;
+    transform: translate(0, 200px); }
+  to {
+    opacity: 1; } }
+
 /* media queries */
+@media screen and (min-width: 992px) {
+  #lista {
+    padding: 0; } }
 
-@media screen and (min-width: 992px) { 
-    #lista{
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 992px){
-    .hero,
-    .fondoContenedorLista,
-    .fondoFrase,
-    .fondoContenedorListaOlimpus,
-    .fondoFraseOlimp,
-    .fondoFraseAct,
-    .fondoFraseServ,
-    .fondoFraseContacto,
-    .heroCycling,
-    .heroMuscu,
-    .heroCombat,
-    .heroZumba,
-    .heroPersonal{
-        background-attachment: unset;
-        background-position: center;
-                 }
-}
+@media screen and (max-width: 992px) {
+  .hero,
+  .fondoContenedorLista,
+  .fondoFrase,
+  .fondoContenedorListaOlimpus,
+  .fondoFraseOlimp,
+  .fondoFraseAct,
+  .fondoFraseServ,
+  .fondoFraseContacto,
+  .heroCycling,
+  .heroMuscu,
+  .heroCombat,
+  .heroZumba,
+  .heroPersonal {
+    background-attachment: unset;
+    background-position: center; } }
 
 @media (max-width: 768px) {
-    .hero{
-        background-image: linear-gradient(rgba(34, 37, 42,0.5),rgba(34, 37, 42,0.5)),url("../images/intro600px.jpg");
-        background-size: cover;
-        background-position:0% 25%;
-    }
-}
+  .hero {
+    background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/intro600px.jpg");
+    background-size: cover;
+    background-position: 0% 25%; } }
