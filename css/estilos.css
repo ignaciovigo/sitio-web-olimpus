@@ -117,7 +117,7 @@ body{
     color:#FF9963;
 }
 
-/* fonts, backround-colors, colors */
+/* fonts, backround-colors, colors,border-colors */
 .ff-robo{
     font-family:'Roboto Slab',sans-serif;
 }
@@ -133,7 +133,9 @@ body{
 .text-tur{
     color: #4ecca3;
 }
-
+.text-gris{
+    color:#6c757d;
+}
 .text-crema{
     color: #f1ede2;
 }
@@ -146,12 +148,15 @@ body{
     background-color: #ff9963;
 }
 
-
 .border-naranja{
     border-color: #ff9963;
 }
 .bg-crema{
     background-color: #f1ede2;
+}
+
+.bg-transparente{
+    background-color: rgba(33, 37, 41,.6);
 }
 /* navbar */
 .activ{
@@ -159,7 +164,7 @@ body{
     border-bottom: 1px solid #4ecca3;
 }
 
-.nav-link:hover, .dropdown-item:hover,.activ:hover, .navbar-toggler:hover{
+.nav-link:hover,.activ:hover, .navbar-toggler:hover{
     background-color: #4ecca3;
     color: #212529;
     border-radius: 10px;
@@ -169,7 +174,7 @@ body{
     color: #4ecca3;
 }
 
-.nav-link:focus, .dropdown-item:focus{
+.nav-link:focus{
     color: #212529;
     background-color: #4ecca3;
     border-radius: 10px;
@@ -188,29 +193,30 @@ body{
     transition: all .8s;
 }
 
-.text-gris{
-    color:#6c757d;
-}
 
 /* "animaciones"*/
 
-#actividades .card:hover, #servicios .card:hover, #inicio .card:hover{
+#actividades .card:hover, #servicios .card:hover, #inicio .card:hover, .carousel-item .card:hover{
     transform: scale(1.02);
-    transition: all 1s;
+    transition: all .8s;
 }
 
-#actividades .card:hover a{
+#actividades .card:hover a, .carousel-item .card:hover a{
     transform: scale(1.2);
     transform: translateX(1rem);
     transition: all 1s;
 }
-#actividades .card:hover h5{
+#actividades .card:hover h5, .carousel-item .card:hover h5{
     transform: scale(1.2);
     transform: translateX(1rem);
     color: #4ecca3;
     transition: all 1s;
 }
 
+#servicios .card:hover div{
+  background:rgba(33, 37, 41,.8);
+  transition: all 1s;
+}
 
 .row{
     animation-name: entrada;
@@ -225,6 +231,7 @@ body{
        opacity: 1;
     }
 }
+/* media queries */
 
 @media screen and (min-width: 992px) { 
     #lista{
@@ -247,6 +254,7 @@ body{
     .heroZumba,
     .heroPersonal{
         background-attachment: unset;
+        background-position: center;
                  }
 }
 
