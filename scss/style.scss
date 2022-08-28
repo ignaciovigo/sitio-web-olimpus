@@ -193,7 +193,14 @@ body{
     transition: all .8s;
 }
 
-
+/*boton whatsapp*/
+.fixed-bottom{
+    bottom: 20px;
+    left: 20px;
+}
+.fixed-bottom img{
+    width: 50px;
+}
 /* "animaciones"*/
 
 #actividades .card:hover, #servicios .card:hover, #inicio .card:hover, .carousel-item .card:hover{
