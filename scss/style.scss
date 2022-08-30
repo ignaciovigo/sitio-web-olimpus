@@ -1,42 +1,8 @@
 @import "./partials/_base.scss"; //resets, vars,mixins,clases utiles
 @import "./partials/_layout.scss"; //layout, contenedores, sistema grid
 @import "./partials/_components.scss"; //componentes botones, navs,cards,etc
-
-/* "animaciones"*/
-
-#actividades .card:hover, #servicios .card:hover, #inicio .card:hover, .carousel-item .card:hover{
-    transform: scale(1.02);
-    transition: all .8s;
-}
-
-#actividades .card:hover a, .carousel-item .card:hover a{
-    transform: scale(1.2);
-    transform: translateX(1rem);
-    transition: all 1s;
-}
-#actividades .card:hover h5, .carousel-item .card:hover h5{
-    transform: scale(1.2);
-    transform: translateX(1rem);
-    color: #4ecca3;
-    transition: all 1s;
-}
-
-#servicios .card:hover div{
-  background:rgba(33, 37, 41,.8);
-  transition: all 1s;
-}
-
-@keyframes entrada{
-    from{
-        opacity: 0;
-        transform: translate(0,200px);
-    }
-    to{
-       opacity: 1;
-    }
-}
+$enable-shadows:true;
 /* media queries */
-
 @media screen and (min-width: 992px) { 
     #lista{
         padding: 0;
