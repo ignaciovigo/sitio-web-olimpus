@@ -1,0 +1,51 @@
+// navbar
+.activ{
+    color: map-get($colores,"turquesa");
+    border-bottom: 1px solid map-get($colores,"turquesa");
+}
+
+.nav-link:hover,.activ:hover, .navbar-toggler:hover{
+    background-color: map-get($colores,"turquesa");
+    color: map-get($colores,"negro");
+    border-radius: 10px;
+    transition:.5s;
+}
+.navbar-toggler{
+    color: map-get($colores,"turquesa");
+}
+
+.nav-link:focus{
+    color: map-get($colores,"negro");
+    background-color: map-get($colores,"turquesa");
+    border-radius: 10px;
+}
+
+.nav-link{
+    transition: 0s;
+}
+
+// botones
+.btn{
+    border: none;
+}
+.btn:hover,.btn:focus{
+    background-color: #4ecca3;
+    color: #212529; 
+    transition: all .8s;
+}
+
+//boton wsp
+.fixed-bottom{
+    bottom: 20px;
+    left: 20px;
+    
+        img{
+            width: 50px;
+        }
+}
+
+// listas
+#lista li span::before{
+    content: "✔ ";
+    color:map-get($colores,"naranja");
+}

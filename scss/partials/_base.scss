@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Script&family=Rajdhani&family=Roboto+Slab&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+// reset
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// variables
+$primeraFuente: 'Roboto Slab', sans-serif;
+$segundaFuente: 'League Script',serif;
+$terceraFuente: 'Rajdhani',serif;
+
+$colores:(
+    "crema": #f1ede2,
+    "turquesa" : #4ecca3,
+    "naranja" :#ff9963,
+    "gris": #6c757d,
+    "overlayNegro" : rgba(33, 37, 41, 0.6),
+    "negro" : rgb(33, 37, 41),
+    "overlayNegroOscuro" : rgba(33, 37, 41, 0.8),
+    "gradienteHero" : linear-gradient(rgba(34, 37, 42,0.5),rgba(34, 37, 42,0.5))
+);
+
+// tipografia
+.ff-robo{
+    font-family:$primeraFuente;
+}
+
+.ff-leag{
+    font-family:$segundaFuente;
+}
+
+.ff-raj, p{
+    font-family:$terceraFuente;
+}
+
+// clases utiles
+.text-tur{
+    color: map-get($colores, "turquesa");
+}
+.text-gris{
+    color: map-get($colores, "gris");
+}
+.text-crema{
+    color: map-get($colores, "crema");
+}
+
+.text-naranja{
+    color: map-get($colores, "naranja");
+}
+
+.bg-naranja, .btn-naranja{
+    background-color: map-get($colores, "naranja");
+}
+
+.border-naranja{
+    border-color: map-get($colores, "naranja");
+}
+.bg-crema{
+    background-color:  map-get($colores, "crema");
+}
+
+.bg-transparente{
+    background-color:  map-get($colores, "overlayNegro");
+}
