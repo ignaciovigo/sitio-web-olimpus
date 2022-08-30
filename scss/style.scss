@@ -1,7 +1,6 @@
 @import "./partials/_base.scss"; //resets, vars,mixins,clases utiles
 @import "./partials/_layout.scss"; //layout, contenedores, sistema grid
 @import "./partials/_components.scss"; //componentes botones, navs,cards,etc
-$enable-shadows:true;
 /* media queries */
 @media screen and (min-width: 992px) { 
     #lista{
