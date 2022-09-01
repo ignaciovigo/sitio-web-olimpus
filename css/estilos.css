@@ -129,10 +129,6 @@ body {
   background-attachment: fixed;
   height: 60vh; }
 
-.row {
-  animation-name: entrada;
-  animation-duration: 1.5s; }
-
 .activ {
   color: #4ecca3;
   border-bottom: 1px solid #4ecca3; }
@@ -207,6 +203,10 @@ body {
 #servicios .card:hover div {
   background: rgba(33, 37, 41, 0.8);
   transition: all 1s; }
+
+.aparicion {
+  animation-name: entrada;
+  animation-duration: 1.5s; }
 
 @keyframes entrada {
   from {
