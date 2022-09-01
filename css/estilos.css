@@ -6,6 +6,9 @@
   margin: 0;
   box-sizing: border-box; }
 
+body {
+  background-color: #f1ede2; }
+
 .ff-robo {
   font-family: "Roboto Slab", sans-serif; }
 
@@ -39,38 +42,40 @@
 .bg-transparente {
   background-color: rgba(33, 37, 41, 0.6); }
 
-body {
-  background-color: #f1ede2; }
-
 .hero {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/intro.jpg");
-  background-attachment: fixed;
   background-size: cover;
-  background-position: 25% 25%;
-  height: 60vh; }
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 60vh;
+  background-position: 25% 25%; }
 
 .fondoContenedorLista {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondoContLista.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed; }
 
 .fondoFrase {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondoFrase.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   height: 40vh; }
 
 .fondoContenedorListaOlimpus {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/contenedor_2_olimpus.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed; }
 
 .fondoFraseOlimp {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondo_frase.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 100%;
-  height: 40vh; }
+  height: 40vh;
+  background-position: 50% 100%; }
 
 .fondoFraseAct {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/foto_final_actividades.jpg");
@@ -98,6 +103,7 @@ body {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoCycling.jpg");
   background-position: center bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   height: 60vh; }
 
@@ -105,6 +111,7 @@ body {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoMusculacion.jpg");
   background-position: center bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   height: 60vh; }
 
@@ -112,6 +119,7 @@ body {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoCombat.jpg");
   background-position: center bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   height: 60vh; }
 
@@ -119,6 +127,7 @@ body {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoZumba.jpg");
   background-position: center bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   height: 60vh; }
 
@@ -126,6 +135,7 @@ body {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoPersonalTrainer.jpg");
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   height: 60vh; }
 

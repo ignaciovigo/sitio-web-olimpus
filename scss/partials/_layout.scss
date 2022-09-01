@@ -1,99 +1,68 @@
-body{
-    background-color: #f1ede2;
-}
-
 .hero{
     background-image: map-get($colores,"gradienteHero"),url("../images/intro.jpg");
-    background-attachment:fixed;
-    background-size: cover;
+    @include bg-image-parallax-heigt;
     background-position: 25% 25%;
-    height: 60vh;
 }
 
 .fondoContenedorLista{
     background-image:map-get($colores,"gradienteHero"),url("../images/fondoContLista.jpg");
-    background-size: cover;
-    background-attachment:fixed;
+    @include bg-image-parallax;
 
 }
 .fondoFrase{
     background-image: map-get($colores,"gradienteHero"),url("../images/fondoFrase.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 40vh;
+    @include bg-image-parallax-short;
 }
 
 .fondoContenedorListaOlimpus{
     background-image:map-get($colores,"gradienteHero"),url("../images/contenedor_2_olimpus.jpg");
-    background-size: cover;
-    background-attachment:fixed;
+    @include bg-image-parallax;
 }
 .fondoFraseOlimp{
     background-image: map-get($colores,"gradienteHero"),url("../images/fondo_frase.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+    @include bg-image-parallax-short;
     background-position: 50% 100%;
-    height: 40vh;
 }
 .fondoFraseAct{
     background-image: map-get($colores,"gradienteHero"),url("../images/foto_final_actividades.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 40vh;
+    @include bg-image-parallax-short;
 }
 .fondoFraseServ{
     background-image: map-get($colores,"gradienteHero"),url("../images/finalServi.jpg");
     background-position: 0% 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 40vh;
+    @include bg-image-parallax-short;
 }
 .fondoFraseContacto{
     background-image: map-get($colores,"gradienteHero"),url("../images/finalContacto.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 40vh;
+    @include bg-image-parallax-short;
 }
 
 .heroCycling{
     background-image: map-get($colores,"gradienteHero"),url("../images/actividades/fondoCycling.jpg");
     background-position: center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
+    @include bg-image-parallax-heigt;
 }
 
 .heroMuscu{
     background-image: map-get($colores,"gradienteHero"),url("../images/actividades/fondoMusculacion.jpg");
     background-position: center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
+    @include bg-image-parallax-heigt;
 }
 
 .heroCombat{
     background-image: map-get($colores,"gradienteHero"),url("../images/actividades/fondoCombat.jpg");
     background-position: center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
+    @include bg-image-parallax-heigt;
 }
 
 .heroZumba{
     background-image: map-get($colores,"gradienteHero"),url("../images/actividades/fondoZumba.jpg");
     background-position: center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
+    @include bg-image-parallax-heigt;
 }
 
 .heroPersonal{
     background-image: map-get($colores,"gradienteHero"),url("../images/actividades/fondoPersonalTrainer.jpg");
     background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 60vh;
+    @include bg-image-parallax-heigt;
 }

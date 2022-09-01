@@ -6,6 +6,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f1ede2;
+}
 //options boostrap
 $enable-shadows:true;
 // variables
@@ -65,4 +68,25 @@ $colores:(
 
 .bg-transparente{
     background-color:  map-get($colores, "overlayNegro");
+}
+
+// mixins
+@mixin bg-image-parallax-heigt{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+@mixin bg-image-parallax-short{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 40vh;
+}
+
+@mixin bg-image-parallax{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
