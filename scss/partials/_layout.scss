@@ -31,7 +31,7 @@ body{
 .fondoFraseOlimp{
     background-image: map-get($colores,"gradienteHero"),url("../images/fondo_frase.jpg");
     background-size: cover;
-    background-attachment: fixed;       /* sacar el fixeed */
+    background-attachment: fixed;
     background-position: 50% 100%;
     height: 40vh;
 }
