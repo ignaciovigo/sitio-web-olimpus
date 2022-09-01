@@ -199,7 +199,7 @@ body {
   transform: translateX(1rem);
   transition: all 1s; }
 
-#actividades .card:hover h5, .carousel-item .card:hover h5 {
+#actividades .card:hover h4, .carousel-item .card:hover h4 {
   transform: scale(1.2);
   transform: translateX(1rem);
   color: #4ecca3;
