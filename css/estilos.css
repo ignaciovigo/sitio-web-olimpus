@@ -154,15 +154,15 @@ body {
 .nav-link {
   transition: 0s; }
 
-.btn {
+.boton {
   background-color: #ff9963;
   border: none; }
-  .btn:hover, .btn:focus {
+  .boton:hover, .boton:focus {
     background-color: #4ecca3;
     color: #212529;
     transition: all .4s;
     box-shadow: 0px 0px 15px 0px #4ecca3; }
-  .btn:active {
+  .boton:active {
     background-color: #4ecca3;
     color: #212529; }
 

@@ -25,7 +25,7 @@
 }
 
 // botones
-.btn{
+.boton{
     background-color: map-get($colores,"naranja" );
     border: none;
         &:hover,&:focus{
@@ -38,7 +38,7 @@
             background-color: map-get($colores,"turquesa");
             color: map-get($colores,"negro");  
         }
-}   
+}
 
 //boton wsp
 .fixed-bottom{
