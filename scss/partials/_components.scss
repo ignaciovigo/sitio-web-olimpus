@@ -50,6 +50,10 @@
         }
 }
 
+.fondoFraseContacto i:hover{
+    filter: drop-shadow(12px 8px 3px map-get($colores,"gris"));
+    transition: all 1s;
+}
 // listas
 #lista li span::before{
     content: "✔ ";
