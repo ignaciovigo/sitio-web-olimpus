@@ -43,7 +43,7 @@ body {
   background-color: rgba(33, 37, 41, 0.6); }
 
 .hero {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/intro.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/intro.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -51,26 +51,26 @@ body {
   background-position: 25% 25%; }
 
 .fondoContenedorLista {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondoContLista.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondoContLista.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
 .fondoFrase {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondoFrase.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondoFrase.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 40vh; }
 
 .fondoContenedorListaOlimpus {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/contenedor_2_olimpus.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/contenedor_2_olimpus.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
 .fondoFraseOlimp {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondo_frase.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondo_frase.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -78,14 +78,14 @@ body {
   background-position: 50% 100%; }
 
 .fondoFraseAct {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/foto_final_actividades.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/foto_final_actividades.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 40vh; }
 
 .fondoFraseServ {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/finalServi.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/finalServi.png");
   background-position: 0% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,14 +93,14 @@ body {
   height: 40vh; }
 
 .fondoFraseContacto {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/finalContacto.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/finalContacto.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 40vh; }
 
 .heroCycling {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoCycling.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoCycling.png");
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ body {
   height: 60vh; }
 
 .heroMuscu {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoMusculacion.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoMusculacion.png");
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -116,7 +116,7 @@ body {
   height: 60vh; }
 
 .heroCombat {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoCombat.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoCombat.png");
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,7 +124,7 @@ body {
   height: 60vh; }
 
 .heroZumba {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoZumba.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoZumba.png");
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body {
   height: 60vh; }
 
 .heroPersonal {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoPersonalTrainer.jpg");
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/actividades/fondoPersonalTrainer.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -248,6 +248,6 @@ body {
 
 @media (max-width: 768px) {
   .hero {
-    background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/intro600px.jpg");
+    background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/intro600px.png");
     background-size: cover;
     background-position: 0% 25%; } }
