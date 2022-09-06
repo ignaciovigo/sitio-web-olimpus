@@ -16,7 +16,7 @@
 
 .fondoContenedorListaOlimpus{
     background-image:map-get($colores,"gradienteHero"),url("../images/contenedor_2_olimpus.png");
-    @include bg-image-parallax;
+    @extend .fondoContenedorLista;
 }
 .fondoFraseOlimp{
     background-image: map-get($colores,"gradienteHero"),url("../images/fondo_frase.png");

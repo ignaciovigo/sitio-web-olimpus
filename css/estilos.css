@@ -50,7 +50,7 @@ body {
   height: 60vh;
   background-position: 25% 25%; }
 
-.fondoContenedorLista {
+.fondoContenedorLista, .fondoContenedorListaOlimpus {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondoContLista.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,10 +64,7 @@ body {
   height: 40vh; }
 
 .fondoContenedorListaOlimpus {
-  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/contenedor_2_olimpus.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/contenedor_2_olimpus.png"); }
 
 .fondoFraseOlimp {
   background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/fondo_frase.png");
@@ -234,8 +231,7 @@ body {
     padding: 0; } }
 
 @media screen and (max-width: 992px) {
-  .hero,
-  .fondoContenedorLista,
+  .hero, .fondoContenedorLista, .fondoContenedorListaOlimpus,
   .fondoFrase,
   .fondoContenedorListaOlimpus,
   .fondoFraseOlimp,
@@ -253,5 +249,4 @@ body {
 @media (max-width: 768px) {
   .hero {
     background-image: linear-gradient(rgba(34, 37, 42, 0.5), rgba(34, 37, 42, 0.5)), url("../images/intro600px.png");
-    background-size: cover;
     background-position: 0% 25%; } }

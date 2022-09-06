@@ -30,7 +30,6 @@
 @media (max-width: 768px) {
     .hero{
         background-image: map-get($colores,"gradienteHero"),url("../images/intro600px.png");
-        background-size: cover;
         background-position:0% 25%;
     }
 }
