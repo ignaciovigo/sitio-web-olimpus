@@ -1,0 +1,31 @@
+@media screen and (min-width: 992px) { 
+    #lista{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .hero,
+    .fondoContenedorLista,
+    .fondoFrase,
+    .fondoContenedorListaOlimpus,
+    .fondoFraseOlimp,
+    .fondoFraseAct,
+    .fondoFraseServ,
+    .fondoFraseContacto,
+    .heroCycling,
+    .heroMuscu,
+    .heroCombat,
+    .heroZumba,
+    .heroPersonal{
+        background-attachment: unset;
+        background-position: center;
+                 }
+}
+
+@media (max-width: 768px) {
+    .hero{
+        background-image: map-get($colores,"gradienteHero"),url("../images/intro600px.png");
+        background-position:0% 25%;
+    }
+}
