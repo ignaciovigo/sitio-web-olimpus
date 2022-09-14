@@ -23,8 +23,9 @@ Dichas paginas estan diseñadas y desarrolladas con las siguientes herramientas:
 ### Caracteristicas del sitio web
 El sitio web posee las siguientes características como producto de las herramientas aplicadas:
 - **Diseño responsivo**: el sitio se adapta a todos los dispositivos ya sea en computadoras de escritorio, laptops, smartphones o tablets.
-- **Navegabilidad**: las paginas del sitio poseen un diseño que facilita la navegacion de los usuarios entre ellas, ademas, tienen botones que conducen hacia redes sociales.
+- **Estructuración**: cuenta con una estructura ordenada que permite que el sitio sea facil de modificar y mantener a través del tiempo. 
+- **Navegabilidad**: las paginas del sitio poseen un diseño que facilita la navegacion de los usuarios entre ellas, además, tienen botones que conducen hacia redes sociales.
 - **Animaciones**: el sitio cuenta con animaciones que mejoran el aspecto visual y la experiencia de los usuarios.
-- **Imágenes**: Las imágenes fueron tomadas de bancos de imágenes gratuitas, modificadas y comprimidas con Adobe Photoshop CS6.
+- **Imágenes**: las imágenes fueron tomadas de bancos de imágenes gratuitas, modificadas y comprimidas con Adobe Photoshop CS6.
 - **SEO básico**: en cada archivo html se aplicaron características para mejorar y perfeccionar la posición del sitio en los motores de búsqueda.
 - **host**: Actualmente el sitio se encuentra hosteado, pueden verlo haciendo [click aqui](https://olimpusgym.000webhostapp.com/index.html "click aqui").
