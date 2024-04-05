@@ -1,18 +1,18 @@
-[![](https://olimpusgym.000webhostapp.com/images/logoverde.png)](https://olimpusgym.000webhostapp.com/index.html)
+[![](https://ignaciovigo.github.io/sitio-web-olimpus/images/logoverde.png)](https://ignaciovigo.github.io/sitio-web-olimpus/index.html)
 # Bienvenido al repositorio del proyecto Olimpus!
 ## Introducción
 El proyecto Olimpus es un sitio web que consta de 10 paginas html:
 
-+ [Inicio](https://olimpusgym.000webhostapp.com/index.html "Inicio")
-+ [Olimpus](https://olimpusgym.000webhostapp.com/pages/olimpus.html "Olimpus")
-+ [Actividades](https://olimpusgym.000webhostapp.com/pages/actividades.html "Actividades")
-	+ [Cycling](https://olimpusgym.000webhostapp.com/pages/actividades/cycling.html "Cycling")
-	+ [Musculación](https://olimpusgym.000webhostapp.com/pages/actividades/musculacion.html "Musculación")
-	+ [Combat](https://olimpusgym.000webhostapp.com/pages/actividades/combat.html "Combat")
-	+ [Zumba](https://olimpusgym.000webhostapp.com/pages/actividades/zumba.html "Zumba")
-	+ [Personalizado](https://olimpusgym.000webhostapp.com/pages/actividades/personalizado.html "Personalizado")
-+ [Servicios](https://olimpusgym.000webhostapp.com/pages/servicios.html "Servicios")
-+ [Contacto](https://olimpusgym.000webhostapp.com/pages/contacto.html "Contacto")
++ [Inicio](https://ignaciovigo.github.io/sitio-web-olimpus/index.html "Inicio")
++ [Olimpus](https://ignaciovigo.github.io/sitio-web-olimpus/pages/olimpus.html "Olimpus")
++ [Actividades](https://ignaciovigo.github.io/sitio-web-olimpus/pages/actividades.html "Actividades")
+	+ [Cycling](https://ignaciovigo.github.io/sitio-web-olimpus/pages/actividades/cycling.html "Cycling")
+	+ [Musculación](https://ignaciovigo.github.io/sitio-web-olimpus/pages/actividades/musculacion.html "Musculación")
+	+ [Combat](https://ignaciovigo.github.io/sitio-web-olimpus/pages/actividades/combat.html "Combat")
+	+ [Zumba](https://ignaciovigo.github.io/sitio-web-olimpus/pages/actividades/zumba.html "Zumba")
+	+ [Personalizado](https://ignaciovigo.github.io/sitio-web-olimpus/pages/actividades/personalizado.html "Personalizado")
++ [Servicios](https://ignaciovigo.github.io/sitio-web-olimpus/pages/servicios.html "Servicios")
++ [Contacto](https://ignaciovigo.github.io/sitio-web-olimpus/pages/contacto.html "Contacto")
 
 Dichas paginas estan diseñadas y desarrolladas con las siguientes herramientas:
  - HTML
@@ -28,4 +28,4 @@ El sitio web posee las siguientes características como producto de las herramie
 - **Animaciones**: el sitio cuenta con animaciones que mejoran el aspecto visual y la experiencia de los usuarios.
 - **Imágenes**: las imágenes fueron tomadas de bancos de imágenes gratuitas, modificadas y comprimidas con Adobe Photoshop CS6.
 - **SEO básico**: en cada archivo html se aplicaron características para mejorar y perfeccionar la posición del sitio en los motores de búsqueda.
-- **host**: Actualmente el sitio se encuentra hosteado, pueden verlo haciendo [click aqui](https://olimpusgym.000webhostapp.com/index.html "click aqui").
+- **host**: Actualmente el sitio se encuentra hosteado, pueden verlo haciendo [click aqui](https://ignaciovigo.github.io/sitio-web-olimpus/index.html "click aqui").
